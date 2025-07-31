@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+}
+.header{
+    background-color: #1d1f23;
+    color: #333;
+    padding: 20px 40px;
+    text-align: center;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.reserve-btn{
+    background-color: #d8aa62;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.our-menu{
+    color: #ffffff;
+    padding-top: 15px;
+}
+.nav-links{
+    margin-top: 10px;
+}
+.nav-links a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.menu-section{
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-section h2{
+    font-family: 'Playfair Display' serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.menu-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+.menu-items{
+    flex: 1;
+    text-align: left;
+}
+.menu-items h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.menu-items ul{
+    list-style: none;
+}
+.menu-items li{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.menu-items li p{
+    font-size: 14px;
+    color: #666;
+}
+.menu-items li span{
+    float: right;
+    font-weight: bold;
+}
+.menu-image{
+    flex: 1;
+}
+.menu-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.see-btn, .reserve-btn{
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.reserve-btn:hover,
+.see-btn:hover{
+    background-color: #c9944d;
+    color: white;
+}
+.menu-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.menu-title strong{
+    font-weight: bold;
+}
+.menu-title span{
+    color: #000;
+}
+.menu-items li p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.menu-disc{
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.menu-divider{
+    width: 100%;
+    margin: 10px 0;
+    margin-right: auto;
+    padding: 20px 40px;
+    padding-left: 0;
+}
+.menu-divider img{
+    width: 110%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.hero-img{
+    width: 110%;
+    margin: 10px 0;
+    padding: 20px 40px;
+    padding-left: 0;
+}
+.hero-img img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.our-menu{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-color: peru;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0;
+}
+.menu-item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.menu-info{
+    display: flex;
+    align-items: center;
+}
+.dish-title{
+    font-weight: bold;
+}
+.description{
+    font-size: 12px;
+    color: #777;
+}
+.price{
+    font-weight: bold;
+    font-size: 16px;
+}
+.see-all{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: 1px solid  #c9944d;
+    color: #c9944d;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2{
+    color: #333;
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="number"],
+input[type="time"],
+input[type="email"],
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+.contact-info, .social-media, .newsletter, .working-hours{
+    margin-top: 20px;
+}
+.social-media a{
+    margin-right: 10px;
+}
+.book-a-table{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.res{
+    padding: 10px;
+}
+.reservation-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table{
+    background-color: #1d1f23;
+    background-image: url('C:.\Users\H P\Documents\PROJECT FOLDER\images\homepage_images\reservation-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.footer{
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 50px 40px 20px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.footer-column{
+    flex: 1;
+    min-width: 200px;
+}
+.footer-center{
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+.footer-center .logo{
+    height: 60px;
+    margin-bottom: 15px;
+}
+.footer-center p{
+    margin-bottom: 20px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.subscribe input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+.subscribe button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.socials a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 8px;
+}
+.footer-bottom{
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer-bottom a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.contact{
+    margin-top: 100px;
+}

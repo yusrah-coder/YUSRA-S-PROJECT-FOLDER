@@ -1,0 +1,305 @@
+header{
+    background-color: #343942;
+    color: #ffffff;
+    height: 30pc;
+    width: 1377px;
+    padding: right 20px;
+}
+
+.div-1{
+    display: flex;
+    text-align: justify;
+    width: 1373px;
+    height: 187.08px;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 268px;
+    left: -1px;
+}
+.div-1 img{
+
+}
+.bt-1{
+    padding-top: 10px;
+    border-color: #E1B168;
+    background-color: #343942;
+    font-size: medium;
+    color: #ffffff;
+    height: 50px;
+    width: 215px;
+    text-align: center;
+    font-weight: 600;
+}.div-2{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav a{
+        color: #ffffff;
+        text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    }
+#buttom{
+    margin-top: 70px;
+}
+.bt-2{
+    padding: 15px 15px 15px 15px;
+    border-color: 1px solid #E1B168;
+    background-color: #E1B168;
+    font-size: medium;
+    color: #000;
+    margin-left: 20px;
+    width: 215px;
+}
+.about-us{
+    margin-left: 550px;
+    font-size: larger;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 120px;
+    height: 60px;
+    margin-top: 100px;
+}
+.bodyone{
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.divv-1{
+    margin-top: 50px;
+    gap: 50px;
+
+}
+.divv-2{
+    flex: ;
+    position: ;
+
+}
+.CEO{
+    width: px;
+    height: px;
+
+}
+.pattern{
+    opacity: 0.3;
+    z-index: 1;
+}
+.about-hero-img{
+    z-index: 2;
+    border-top-right-radius: 200px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 50px;
+
+}
+
+.ceo{
+    display: flex;
+}
+.ceo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px 50px;
+    padding-top: 15px;
+}
+.products{
+    width: 1377px;
+    height: 600px;
+    display: flex;
+    background-size: cover;
+    gap: 30px;
+    margin-top: 50px;
+    background-image: url(images/download/Background (3).png);
+    
+}
+.chefs{
+    width: 1377px;
+    height: 600px;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: #FFF8F5;
+    margin-left: 50px;
+}
+.team{
+    padding-left: 550px;
+}
+.team h5{
+    padding-left: 70px;
+}
+.master-chef{
+    display: flex;
+    width: 1000px;
+    height: fit-content;
+    gap: 50px;
+    padding-left: 
+}
+.master-chef div{
+    border-right: 1px solid #343942;
+}
+.blueblack{
+    width: 1377px;
+    padding-left:8px;
+    height: 500px;
+    background-color: #292E36;
+    color: #ffffff;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    padding-top: 16px;
+}
+.blueblack-in{
+    width: 1000px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+.blueblack-1{
+    padding-left: 150px;
+}
+.blueblack-1 h5{
+    padding-left: 15px;
+}
+.blueblack-2 p{
+    font-style: italic;  
+}
+.blueblack-2 img{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.blueblack-2 h5{
+    padding-left: 145px;
+    color: #E1B168;
+}
+.blueblack-2 h3{
+    padding-left: 140px;
+}
+.galarydiv{
+    width: 1100px;
+    height: 700px;
+    margin-left: 200px;
+    
+}
+.galarydiv-in{
+    width: 200px;
+    height: 68px;
+    margin-left: 500px;
+    gap: 13px;
+    margin-bottom: 15px;
+
+}
+.galarydiv-imgs{
+    display: flex;
+    gap: 20px;
+}
+.galarydiv-imgs-2{
+    width: 500px;
+    height: 600px;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+#galarydiv-imgs-1{
+    flex-direction: column;
+    width: 150px;
+    height: 590px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.bytn{
+    background-color: #292E36;
+    color: #ffffff;
+    width: 500px;
+    height: 250px;
+    gap: 10px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 151px;
+    padding-top: 151px;
+    top: 5392px;
+    left: 482px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    background-image: url(C:\Users\OG\Desktop\PROJECT FOLDER\images\download\Background (1).png);
+    
+}
+.bytn h3{
+    margin-left: 140px;
+}
+.bytn h5{
+    margin-left: 150px;
+}
+.forms{
+}
+.two{
+    width: 744px;
+    height: 30px;
+    display: flex;
+    
+
+}
+#two-in{
+    width: 200px;
+    height: 30px;
+    
+}
+#three-in{
+    width: 133.3px;
+    height: 30px;
+    border: 1px;
+}
+.three{
+    width: 744px;
+    height: 68px;
+    margin-top:25px ;
+
+}
+.button-table{
+    width: 133.3px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #000;
+    margin-left: 150px;
+}
+
+.up-body{
+    background-color: #343942;
+    width: 1377px;
+    height: 460px;
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+.up{
+    display: flex;
+    justify-content: space-around;
+    width: 1290px;
+    height: 199px;
+}
+.logo{
+    display: flex;
+    gap: 2px;
+}
+.upup{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+footer{
+    padding-top: 50px;
+    padding-left: 100px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 2px solid #E1B168;
+}

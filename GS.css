@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+}
+.header{
+    background-color: #1d1f23;
+    color: #333;
+    padding: 20px 40px;
+    text-align: center;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.reserve-btn{
+    background-color: #d8aa62;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.nav-links{
+    margin-top: 10px;
+}
+.nav-links a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.our-menu{
+    color: #fff;
+    padding-top: 15px;
+}
+.menu{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.menu-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+.menu-item img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+}
+.menu-content h2{
+    margin-top: 0;
+    font-size: 24px;
+}
+.menu-content p{
+    margin: 6px 0;
+    line-height: 1.6;
+}
+footer{
+    background-color: #131313;
+    color: #fff;
+    padding: 60px 20px;
+}
+.reservation{
+    max-width: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+.reservation h3{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+    color: #aaa;
+}
+.reservation h2{
+    margin: 0 0 40px;
+    font-size: 26px;
+    display: flex;
+}
+.reservation form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (150px, 1fr));
+    gap: 15px;
+}
+.reservation input{
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+.reservation button{
+    grid-column: span 3;
+    padding: 12px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+.reservation button:hover{
+    background-color: #ddd;
+}
+.banner{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.thumbnail{
+    margin: 0 10px;
+}
+.thumbnail img{
+    width: 150px;
+    height: 150px;
+
+} 
+.insta{
+    padding-top: 15px;
+    font-weight: bold;
+}
+.photo-2{
+    width: 150px;
+    height: 100px;
+}
+.footer{
+    background-color: #111822;
+    color: #fff;
+    padding: 50px 30px 20px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.footer-box{
+    flex: 1 1 200px;
+}
+.footer-box .center{
+    text-align: center;
+}
+.logo{
+    font-size: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.subscribe-form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.subscribe-form input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.subscribe-form button{
+    padding: 10px 16px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer-bottom{
+    border-top: 1px solid #d8aa62;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.footer-bottom a{
+    color: #d8aa62;
+    text-decoration: none;
+}

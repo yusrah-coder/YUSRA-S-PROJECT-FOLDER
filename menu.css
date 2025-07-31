@@ -1,0 +1,117 @@
+header{
+    background-color: #343942;
+    color: #ffffff;
+    height: 30pc;
+    width: 1377px;
+    padding: right 20px;
+}
+
+.div-1{
+    display: flex;
+    text-align: justify;
+    width: 1373px;
+    height: 187.08px;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 268px;
+    left: -1px;
+}
+.div-1 img{
+
+}
+.bt-1{
+    padding-top: 10px;
+    border-color: #E1B168;
+    background-color: #343942;
+    font-size: medium;
+    color: #ffffff;
+    height: 50px;
+    width: 215px;
+    text-align: center;
+    font-weight: 600;
+}.div-2{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav a{
+        color: #ffffff;
+        text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    }
+#buttom{
+    margin-top: 70px;
+}
+.bt-2{
+    padding: 15px 15px 15px 15px;
+    border-color: 1px solid #E1B168;
+    background-color: #E1B168;
+    font-size: medium;
+    color: #000;
+    margin-left: 20px;
+    width: 215px;
+}
+.about-us{
+    margin-left: 550px;
+    font-size: larger;
+    width: 150px;
+    height: 70px;
+    margin-top: 100px;
+}
+.overall{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.starters-side{
+    flex-direction: column;
+    height: 700px;
+    width: 550px;
+    margin-bottom: 40px;
+
+}
+#bracket-1{
+    display: flex;
+}
+.tomatoes{
+    display: flex;
+    width: auto;
+    height: 150px;
+    gap: 5px;
+    margin-top: 1px;
+}
+.line{
+    margin-top: 70px;
+}
+.dollar{
+    margin-top: 50px;
+}
+.glasscup{
+    height: 700px;
+    width: 500px;
+
+
+}
+.starters-side h3{
+    margin-bottom:;
+}
+.starters-side button{
+    padding-left: 25px;
+    border: 1px solid #E1B168;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: px;
+    color: #E1B168;
+
+}
